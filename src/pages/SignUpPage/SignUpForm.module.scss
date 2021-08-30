@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './../../common/styles/_templates.scss';
+
+.signup-form {
+    display: flex;
+    width: 80%;
+    color: white;
+    flex-direction: column;
+    max-width: 520px;
+    margin: auto;
+}
+
+.signup-form__header-text {
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.signup-form__subtitle-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+h3 {
+    display: inline;
+}
+
+.signup-form__input-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    column-gap: 3%;
+}
+
+.login__button-login_with-google {
+    @extend .login__button-login_with-google; 
+}
+
+.login__button-login {
+    @extend .login__button-login;
+}

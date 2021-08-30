@@ -1,0 +1,27 @@
+.login__input {
+    width: 100%;
+    padding: 5% 8%;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+
+    @media screen and (min-width:420px) {
+        padding: 23px 20px;
+        font-size: 16px;
+    }
+}
+
+.login__input_input-valid {
+    background-color: rgb(191, 255, 191);
+    border: 2px solid green;
+}
+
+.login__input_error_message {
+    border-radius: 4px; 
+    background-color: #ffc4d2; 
+    color: #ff1c50;
+    padding: 10px;
+    text-align: center;
+}

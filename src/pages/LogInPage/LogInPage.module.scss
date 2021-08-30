@@ -1,0 +1,39 @@
+@import './../../common/styles/_templates.scss';
+
+.login__form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    max-width: 560px;
+    margin: auto;
+}
+
+.login__header-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6vw;
+    color: white;
+    margin-top: 12vh;
+    font-weight: 700;
+
+    @media screen and (min-width: 420px) {
+        font-size: 32px;
+    }
+}
+
+.login__link_forgot-password {
+    padding: 0;
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: initial;
+}
+
+.login__button-login_with-google {
+    @extend .login__button-login_with-google; 
+}
+
+.login__button-login {
+    @extend .login__button-login;
+}
